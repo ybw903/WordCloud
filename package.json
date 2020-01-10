@@ -6,18 +6,20 @@
   "dependencies": {
     "@material-ui/core": "^4.8.3",
     "@material-ui/icons": "^4.5.1",
+    "firebase-tools": "^7.11.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2"
   },
   "scripts": {
     "start": "set NODE_ENV=development&&webpack-dev-server",
-    "build": "set NODE_ENV=productiton&&webpack -p"
+    "build": "set NODE_ENV=production&&webpack -p"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
     "babel-preset-react-app": "^9.1.0",
+    "copy-webpack-plugin": "^5.1.1",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
